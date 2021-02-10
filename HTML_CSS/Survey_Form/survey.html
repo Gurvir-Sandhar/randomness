@@ -13,22 +13,48 @@
     <body>
         <main>
             <h1 id="title">Survey</h1>
+            <p id="description">Random survey</p>
             <form id="survey-form">
                 <label for="name" class="form-label" id="name-label">Name</label>
-                <input type="text" class="form-control" id="name" placeholder="John Doe">
+                <input type="text" class="form-control" id="name" placeholder="John Doe" required>
+
                 <label for="email" class="form-label" id="email-label">Email</label>
-                <input type="email" class="form-control" id="email" placeholder="JohnDoe@email.com">
+                <input type="email" class="form-control" id="email" placeholder="JohnDoe@email.com" required>
+
                 <label for="number" class="form-label" id="number-label">Age</label>
                 <input type="number" class="form-control" id="number" min="1" max="100" placeholder="33">
-                <label for="dropdown" class="form-label" id="dropdown-label">Gender</label>
-                <select type="dropdown" class="form-select">
-                    <option>Male</option>
-                    <option>Female</option>
+
+                <label for="dropdown" class="form-label">Marital Status</label>
+                <select type="dropdown" class="form-select" id="dropdown">
+                    <option>Married</option>
+                    <option>Single</option>
                 </select>
-                <button type="submit" class="btn btn-primary">Submit</button>
+
+                <input class="form-check-input" type="radio" name="gender" value="male" id="radio-group1">
+                <label class="form-check-label" for="radio-group1">
+                    Male
+                </label>
+                <input class="form-check-input" type="radio" name="gender" value="female" id="radio-group2">
+                <label class="form-check-label" for="radio-group2">
+                    Female
+                </label>
+
+                <input class="form-check-input" type="checkbox" name="occupation" value="employed" id="check-group">
+                <label class="form-check-label" for="check-group">
+                    Currently Employed
+                </label>
+                <input class="form-check-input" type="checkbox" name="occupation" value="student" id="check-group2">
+                <label class="form-check-label" for="check-group2">
+                    Student
+                </label>
+
+                <label class="form-label" for="textarea">Comments</label>
+                <textarea class="form-control"  id="textarea" style="height: 100px;" ></textarea>
+        
+                <button type="submit" class="btn btn-primary" id="submit">Submit</button>
 
             </form>
         </main>
-        <script src=""></script>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </body>
 </html>
