@@ -1,0 +1,22 @@
+
+body {
+    background-color: #07522b;
+}
+
+.title-div {
+    color: white;
+    margin: 100px 0 0 100px;
+}
+
+#survey-form {
+    margin: 0 100px 100px 100px;
+    padding: 25px;
+    background-color: white;
+    border: black;
+    border-style: solid thin;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.genders {
+    display: flex;
+}
