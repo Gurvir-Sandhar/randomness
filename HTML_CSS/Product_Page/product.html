@@ -11,10 +11,10 @@
     <body>
         <header id="header">
             <img id="header-img" src="https://www.gizmochina.com/wp-content/uploads/2020/08/Samsung-Galaxy-Logo-Featured-1024x608.jpg" alt="samsung logo" width="450" height="250">
-            <nav id="nav-bar" >
-                <a href="" id="nav-link">Home</a>
-                <a href="" id="nav-link">Mobile</a>
-                <a href="" id="nav-link">Tablet</a>
+            <nav id="nav-bar">
+                <a href="" class="nav-link">Home</a>
+                <a href="" class="nav-link">Mobile</a>
+                <a href="" class="nav-link">Tablet</a>
             </nav>
         </header>
         <div class="embeded">
@@ -22,11 +22,11 @@
                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe> 
         </div>
-        <form id="form">
+        <form id="form" method="POST" action="https://www.freecodecamp.com/email-submit">
             <label for="email" class="form-label">Email</label>
-            <input type="email" id="email" class="form-control" placeholder="john@email.com" required>
+            <input type="email" id="email" name="email" class="form-control" placeholder="john@email.com" required>
             <label for="submit" class="form-label"></label>
-            <input type="submit" id="submit" class="form-control" formaction="https://www.freecodecamp.com/email-submit">
+            <input type="submit" value="email-submit" id="submit">
         </form>
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </body>
