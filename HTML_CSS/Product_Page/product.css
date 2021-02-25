@@ -1,0 +1,23 @@
+
+body {
+    margin: 20px;
+}
+#header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#header a {
+    color: black;
+    padding: 15px;
+    font-size: 35px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+#header a:hover {
+    text-decoration: underline;
+}
