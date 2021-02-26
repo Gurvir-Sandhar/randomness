@@ -12,22 +12,24 @@
         <header id="header">
             <img id="header-img" src="https://www.gizmochina.com/wp-content/uploads/2020/08/Samsung-Galaxy-Logo-Featured-1024x608.jpg" alt="samsung logo" width="300" height="150">
             <nav id="nav-bar">
-                <a href="" class="nav-link">Home</a>
+                <a href="#Home" class="nav-link">Home</a>
                 <a href="" class="nav-link">Specs</a>
                 <a href="" class="nav-link">Price</a>
             </nav>
         </header>
-        <div class="embeded">
+        <section id="home">
+            <h1>The Next Big Thing is Here.</h1>
             <iframe id="video" width="500" height="305" src="https://www.youtube.com/embed/jH0q8tr1dYo" 
                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe> 
-        </div>
-        <form id="form" method="POST" action="https://www.freecodecamp.com/email-submit">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" id="email" name="email" class="form-control" placeholder="john@email.com" required>
-            <label for="submit" class="form-label"></label>
-            <input type="submit" value="email-submit" id="submit">
-        </form>
+
+            <form id="form" method="POST" action="https://www.freecodecamp.com/email-submit">
+                <label for="email" class="form-label">Subscribe For Updates</label><br>
+                <input type="email" id="email" name="email" class="form-control" placeholder="please enter your email:" required><br>
+                <label for="submit" class="form-label"></label>
+                <input type="submit" value="Subscribe" id="submit">
+            </form>
+        </section>
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </body>
 </html>

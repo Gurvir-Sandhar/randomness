@@ -1,7 +1,14 @@
 
-body {
-    margin: 20px;
+html {
+    background-color: black;
 }
+
+body {
+    margin: 0 10% 0 10%;
+    background-color: white;
+    min-height: 100vh;
+}
+
 #header {
     display: flex;
     flex-direction: row;
@@ -20,4 +27,43 @@ body {
 
 #header a:hover {
     text-decoration: underline;
+}
+
+#home {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#home form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#email {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 9px;
+    width: 300px;
+    height: 25px;
+}
+
+#submit {
+    margin-top: 10px;
+    border-radius: 9px;
+    height: 25px;
+}
+
+#submit:hover {
+    background-color: rgb(12, 2, 88);
+    color: white;
 }
