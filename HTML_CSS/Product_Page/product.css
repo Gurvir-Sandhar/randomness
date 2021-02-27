@@ -9,6 +9,10 @@ body {
     min-height: 100vh;
 }
 
+h1 {
+    font-size: 30px;
+}
+
 #header {
     display: flex;
     flex-direction: row;
@@ -66,4 +70,21 @@ form label {
 #submit:hover {
     background-color: rgb(12, 2, 88);
     color: white;
+}
+
+.specs-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+.spec-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+svg {
+    padding-right: 10px;
 }
