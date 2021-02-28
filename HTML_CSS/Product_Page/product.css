@@ -72,6 +72,11 @@ form label {
     color: white;
 }
 
+#product-pic {
+    height: 475px;
+    width: 400px;
+}
+
 .specs-container {
     display: flex;
     flex-direction: row;
@@ -86,5 +91,23 @@ form label {
 }
 
 svg {
-    padding-right: 10px;
+    padding-right: 30px;
+}
+
+#price {
+    text-align: center;
+}
+
+.price-card {
+    text-align: center;
+    border: solid thin black;
+    padding: 25px;
+    margin: 10px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.price-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
