@@ -96,7 +96,7 @@ form label {
     justify-content: space-between;
 }
 
-svg {
+.spec-div svg {
     padding-right: 30px;
 }
 
@@ -116,4 +116,8 @@ svg {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.table td {
+    padding: 10px;
 }
