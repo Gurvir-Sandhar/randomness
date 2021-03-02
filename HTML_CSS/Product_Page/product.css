@@ -122,3 +122,15 @@ form label {
 .table td {
     padding: 10px;
 }
+
+@media screen and (max-width: 1180px) {
+        .price-card {
+            padding: 0px;
+        }
+}
+
+@media screen and (max-width: 1000px) {
+        .price-card {
+            margin: 0;
+        }
+}
