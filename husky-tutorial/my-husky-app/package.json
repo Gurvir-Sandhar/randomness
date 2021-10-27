@@ -16,9 +16,15 @@
   },
   "devDependencies": {
     "eslint": "8.1.0",
-    "eslint-config-next": "11.1.2"
+    "eslint-config-next": "11.1.2",
+    "prettier": "^2.4.1"
   },
   "husky": {
-    "hooks": {}
+    "hooks": {
+      "applypatch-msg": "echo \"[Husky] applypatch-msg\"",
+      "pre-applypatch": "echo \"[Husky] pre-applypatch\"",
+      "post-applypatch": "echo \"[Husky] post-applypatch\"",
+      "pre-commit": "echo \"[Husky] pre-commit\""
+    }
   }
 }
